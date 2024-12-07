@@ -1,0 +1,55 @@
+Always add row and column value comma sperated.
+Always enter row number first
+Row and column starts from zero
+
+example of input
+0,0
+1,0
+
+
+Game play Example
+
+     |      |      |
+     |      |      |
+     |      |      |
+Player:Nayan Enter row,column:
+0,0
+X    |      |      |
+     |      |      |
+     |      |      |
+Player:Shejal Enter row,column:
+1,1
+X    |      |      |
+     | O    |      |
+     |      |      |
+Player:Nayan Enter row,column:
+2,0
+X    |      |      |
+     | O    |      |
+X    |      |      |
+Player:Shejal Enter row,column:
+0,1
+X    | O    |      |
+     | O    |      |
+X    |      |      |
+Player:Nayan Enter row,column:
+0,2
+X    | O    | X    |
+     | O    |      |
+X    |      |      |
+Player:Shejal Enter row,column:
+1,0
+X    | O    | X    |
+O    | O    |      |
+X    |      |      |
+Player:Nayan Enter row,column:
+2,1
+X    | O    | X    |
+O    | O    |      |
+X    | X    |      |
+Player:Shejal Enter row,column:
+1,2
+X    | O    | X    |
+O    | O    | O    |
+X    | X    |      |
+game winner is: Shejal
