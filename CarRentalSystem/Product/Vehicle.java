@@ -11,7 +11,6 @@ public class Vehicle {
     int average;
     int cc;
     int dailyRentalCost;
-    int hourlyRentalCost;
     int noOfSeat;
     Status status;
 
@@ -85,14 +84,6 @@ public class Vehicle {
 
     public void setDailyRentalCost(int dailyRentalCost) {
         this.dailyRentalCost = dailyRentalCost;
-    }
-
-    public int getHourlyRentalCost() {
-        return hourlyRentalCost;
-    }
-
-    public void setHourlyRentalCost(int hourlyRentalCost) {
-        this.hourlyRentalCost = hourlyRentalCost;
     }
 
     public int getNoOfSeat() {

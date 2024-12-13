@@ -1,5 +1,7 @@
 package CarRentalSystem;
 
+import java.time.temporal.ChronoUnit;
+
 public class Bill {
 
     Reservation reservation;
@@ -15,7 +17,8 @@ public class Bill {
 
     private double computeBillAmount(){
 
-        return 100.0;
+         long totalDays= ChronoUnit.DAYS.between(reservation.dateBookedFrom, reservation.dateBookedTo);
+         return (totalDays*reservation.getVehicle().getDailyRentalCost());
     }
 
 
