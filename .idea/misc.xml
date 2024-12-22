@@ -5,10 +5,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ElevatorDesign/pom.xml" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibility/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ChainOfResponsibility/pom.xml" />
         <option value="$PROJECT_DIR$/ElevatorDesign/pom.xml" />
       </set>
     </option>
